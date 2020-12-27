@@ -15,7 +15,7 @@ public class Test {
 
         System.out.println("你输入的密码是：" + password);
 
-        File file=new File("C:\\Users\\Administrator\\IdeaProjects\\ConsoleShop\\src\\users.xlsx");
+        File file=new File("C:\\Users\\piggy\\IdeaProjects\\consoleshop\\src\\users.xlsx");
         ReadExcel readExcel=new ReadExcel();//创建对象
         User users[]=readExcel.readExcel(file);
         for(int i=0;i<users.length;i++){
